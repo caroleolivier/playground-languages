@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "amd",
+        "listFiles": true,
+        // "noUnusedLocals": true,
+        // "noUnusedParameters": true,
+        //"outFile": "./out/tsc.js",
+        "outDir": "./out"
+        // "pretty": true
+        // "removeComments": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+    ]
+}

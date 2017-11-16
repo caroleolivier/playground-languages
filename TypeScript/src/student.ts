@@ -1,10 +1,4 @@
-interface Person {
-    firstName: string;
-    lastName: string;
-    readonly fullName: string;
-}
-
-class Student {
+export default class Student {
     firstName: string;
     lastName: string;
     no: number;
@@ -19,11 +13,3 @@ class Student {
         return `${this.firstName} ${this.lastName}`;
     }
 }
-
-function greeter(person: Person) {
-    return "Hello " + person.fullName;
-}
-
-let user = new Student("John", "Doe", 1)
-
-document.body.innerHTML = greeter(user);
