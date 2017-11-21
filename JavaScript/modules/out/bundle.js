@@ -70,25 +70,21 @@
 "use strict";
 
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-var str = exports.str = "Hello World";
-'use strict';
-
 var _simple = __webpack_require__(1);
 
 console.log(_simple.str);
 
-
 /***/ }),
 /* 1 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "str", function() { return str; });
-let str = "Hello World";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var str = exports.str = "Hello World";
 
 /***/ })
 /******/ ]);
