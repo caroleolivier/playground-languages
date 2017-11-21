@@ -5,13 +5,13 @@ Experimentation with JavaScript modules, webpack, babel.
 ## Babel
 
 ```
-npx babel simple.js main.js -o babelified.js
+npx babel src --out-dir babel-out
 ```
 
 ## webpack
 ```
-npx webpack --entry /path/to/babel/output.js --output-filename out/bundle.js
+npx webpack --entry babel-out/main.js --output-file out/bundle.js
 ```
 
 ## run
-
+Open [index.html](./index.html).
