@@ -1,0 +1,15 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "Follow this 5 minute [tutorial](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html).",
+  "main": "main.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carole",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^2.6.1"
+  }
+}
